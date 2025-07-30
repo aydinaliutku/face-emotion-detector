@@ -1,40 +1,32 @@
-\# Face \& Emotion Detector 
+# 🎭 Face & Emotion Detector
 
+Real-time face and emotion detection using Python, OpenCV, TensorFlow, and MediaPipe.
 
+This is a beginner-friendly AI project that uses your webcam to detect faces and classify emotions using a CNN model trained on the FER2013 dataset.
 
-Real-time face and (mock) emotion detection using Python, OpenCV, and MediaPipe.
+---
 
+## ✅ Features
 
+- Real-time face detection from webcam (MediaPipe)
+- Emotion classification using pre-trained Keras model
+- Clean and modular codebase
 
-This is a beginner-friendly AI project that uses your webcam to detect faces and randomly displays an emotion label. It serves as a foundation for further development with real emotion classification models.
+---
 
+## 🛠 Requirements
 
-
-\## Features
-
-
-
-\- Real-time face detection from webcam
-
-\- Random emotion labeling (for demo purposes)
-
-\- Built with OpenCV, Numpy, TensorFlow and MediaPipe
-
-
-
-\## Requirements
-
-
-
-```bash
-
+```
 pip install -r requirements.txt
+```
 
-Make sure your Python version is 3.7 - 3.10 (for TensorFlow compatibility).
+> Make sure your Python version is between **3.7 – 3.10** for TensorFlow compatibility.
 
+---
 
-\## Folder Structure
+## 📁 Folder Structure
 
+```
 face-emotion-detector/
 │
 ├── detector.py
@@ -43,28 +35,45 @@ face-emotion-detector/
 ├── .gitignore
 └── model/
     └── emotion_detection_model.h5   ← Not uploaded to GitHub
+```
 
-\## Download the Model
-The model file emotion_detection_model.h5 is not included in the repo due to size.
-You can download it from Google Drive or Hugging Face.
+---
 
-Place the file inside the /model folder before running.
+## 🔗 Download the Model
 
-\## Run the Project
+The model file `emotion_detection_model.h5` is **not included** in this repo due to size limits.
 
+You can download it from:
+- [Download model.h5 from ibhanu/emotion-detection](https://github.com/ibhanu/emotion-detection/raw/master/model.h5)
+- or [Hugging Face](https://huggingface.co)
+
+Place the file inside the `model/` folder before running the code.
+
+---
+
+## ▶️ Run the Project
+
+```
 python detector.py
+```
 
-\## To-Do
+Press **Q** to quit the webcam stream.
 
--Integrate smile detection
+---
 
--Add logging and save results
+## To-Do
 
--Upload to Huggingface Spaces
+- [ ] Integrate smile detection  
+- [ ] Add logging and save results  
+- [ ] Upload demo to Huggingface Spaces  
 
-\## Author
+---
 
-Ali Utku Aydın
+## 👤 Author
 
+Ali Utku Aydın  
+[GitHub](https://github.com/aydinaliutku) | [LinkedIn](https://www.linkedin.com/in/ali-utku-ayd%C4%B1n-643629191/)
 
+---
 
+> Feel free to fork this repo, improve it, and show your own touch!
